@@ -1,1 +1,10 @@
 /* write your override styles here */
+#wall .tag-1 {
+    display: none; /* Overrides display of img "tag-1". Displays no image. */
+}
+body #wall #tag-2 {
+    display: none; /* Overrides display of img "tag-2". Displays no image. */
+}
+body div#wall #tag-3.slick {
+    display: none; /* Overrides display of img "tag-3". Displays no image. */
+}
